@@ -23,7 +23,8 @@ angular.module("MyModule", ['selectbox'])
 	.controller("MyCtrl", function($scope) {
 		$scope.data = [
 			{
-				"title": "Example data" },	
+				"title": "Example data" 
+			},	
 			{
 				"title": "Another Example" 
 			}
