@@ -21,11 +21,16 @@ Usage
 ```
 angular.module("MyModule", ['selectbox'])
 	.controller("MyCtrl", function($scope) {
-		$scope.data = [{
-			"title": "Example data" },	
-		{
-			"title": "Another Example" }];
-		$scope.selectedData = [$scope.data[0]];
+		$scope.data = [
+			{
+				"title": "Example data" },	
+			{
+				"title": "Another Example" 
+			}
+		];
+		$scope.selectedData = [
+			$scope.data[0]
+		];
 	 } );
 ```
 
