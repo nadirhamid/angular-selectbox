@@ -1,0 +1,77 @@
+
+selectbox {
+}
+selectbox ul, li, ol, dl {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+selectbox .selectbox-part {
+   border: 1px solid #E3E3E3;
+   border-radius: 7px;
+   margin-right: 3px;
+   height: 500px;
+}
+selectbox .selectbox-part.left {
+   width: 250px;
+}
+selectbox .selectbox-part.outer {
+   border: none;
+   display: table;
+}
+selectbox .selectbox-part.outer .middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+selectbox .selectbox-part.outer .middle .inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+
+selectbox .selectbox-part.outer .middle .inner button {
+    margin-bottom: 5px;
+}
+
+
+selectbox .selectbox-part.right {
+    width: 250px;
+    padding-top: 34px;
+}
+  
+
+selectbox .selectbox-filter {
+   position: relative;
+   margin-bottom: 10px;
+}
+selectbox .selectbox-filter input {
+   font-size: 14px;
+}
+selectbox .selectbox-filter img {
+    position: absolute;
+    left:  2px;
+    width: 16px;
+    height: 16px;
+}
+selectbox .selectbox-box {
+   height: 400px;
+   overflow-y: scroll;
+}
+   
+selectbox .selectbox-box .selectbox-list li {
+   padding:  5px 3px;
+   cursor: pointer;
+   width: 100%;
+}
+selectbox .selectbox-box .selectbox-list li:hover {
+   background: #E3E3E3;
+}
+selectbox .selectbox-box .selectbox-list li.active {
+   background: #337ab7;
+   color: #FFF;
+}
+selectbox .selectbox-buttons {
+   text-align: center;
+}
+   

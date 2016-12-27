@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Testing AngularJS Selectbox</title>
+		<link rel="stylesheet" href="../dist/selectbox.css"></link>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+	</head>
+	<body>
+		<style>
+			body {
+				padding: 20px;
+			}
+		</style>
+		<h1>Selectbox Examples</h1>
+		<div ng-app="selectboxApp">
+			<div ng-controller="selectboxCtrl">
+				<h5>Example 1 - Basic</h5>
+				<p>
+				Example shows basic usage of selectbox with a dataset, a title field
+				</p>
+				<selectbox model="selectedModels" model-data="fullList"  field="'title'"></selectbox>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+		<script type="text/javascript" src="../dist/selectbox.js"></script>
+		<script type="text/javascript">
+			angular.module("selectboxApp", ["selectbox"])
+				.controller("selectboxCtrl", function($scope) {
+					$scope.fullList = [{
+						"title": "Option 1" 
+					},
+					{
+						"title": "Option 2" 
+					},
+					{
+						"title": "Option 3" 
+					},
+					{
+						"title": "Option 4" 
+					},
+					{
+						"title": "Option 5" 
+					},
+					{
+						"title": "Option 6" 
+					},
+					{
+						"title": "Option 7" 
+					},
+					{
+						"title": "Option 8" 
+					},
+					{
+						"title": "Option 9" 
+					},
+					{
+						"title": "Option 10" 
+					}];
+					$scope.selectedModels = [
+						$scope.fullList[0]
+					];
+				});
+		</script>
+	</body>
+</html>
+		 
+			
+

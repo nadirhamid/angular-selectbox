@@ -1,0 +1,28 @@
+{
+  "name": "angular-selectbox",
+  "author": "Nadir Hamid <matrix.nad@gmail.com>",
+  "version": "0.0.1",
+  "dependencies": {},
+  "description": "Angular Selectbox =======================================================================================",
+  "main": "./dist/selectbox.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadirhamid/angular-selectbox.git"
+  },
+  "keywords": [
+    "angular",
+    "selectbox"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nadirhamid/angular-selectbox/issues"
+  },
+  "homepage": "https://github.com/nadirhamid/angular-selectbox#readme"
+}
