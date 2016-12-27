@@ -5,6 +5,8 @@ A simple two way select box.
 
 ![Alt text](./imgs/selectbox.png)
 
+[Live Example](http://infinitet3ch.com/examples/angular-selectbox)
+
 Installing
 ```
 npm install angular-selectbox
