@@ -7,7 +7,7 @@ angular.module("selectbox", []).directive("selectbox", function ($parse) {
 		"retrict": "E",
 		"scope": {
 			"data": "=modelData",
-			"field": "=field",
+			"field": "=field?",
 			"model": "=model"
 		},
 		"template": _templateObject2,
@@ -15,7 +15,7 @@ angular.module("selectbox", []).directive("selectbox", function ($parse) {
 			var filterModel = "";
 			var uniqueId = scope.$id;
 			var fullData = angular.copy(scope.data);
-			var field = scope.field;
+			var field = angular.isDefined(scope.field)?scope.field:"title";
 			scope.filterText = "";
 			var selectedData = [];
 			function makeStates(list) {
