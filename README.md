@@ -37,6 +37,6 @@ angular.module("MyModule", ['selectbox'])
 
 HTML
 ```
-<selectbox model-data="data" model="selectedData" field="'title'"></selectbox>
+<selectbox model-data="data" model="selectedData"></selectbox>
 ```
 
